@@ -14,6 +14,41 @@ Trivian Technologies is developing commercial software, applications, integratio
 
 Our thesis is that these capabilities will become foundational as organizations entrust AI with ongoing work.
 
+## The ecosystem at a glance
+
+The Institute stewards the open-source foundation. Technologies develops the commercial architecture and products around it.
+
+```mermaid
+flowchart TD
+    subgraph institute["Trivian Institute · open-source foundation"]
+        TRIA["TRIA · inspectable alpha"]
+    end
+
+    subgraph technologies["Trivian Technologies · commercial development"]
+        G["Governance and current permissions"]
+        C["Continuity and accountable history"]
+        A["Aporia · uncertainty and revision"]
+        S["Syzygy Core · persistent relational architecture"]
+        TRIA --> G
+        TRIA --> C
+        G --> S
+        C --> S
+        A --> S
+    end
+
+    subgraph products["Intended product directions"]
+        E["Enterprise AI workflows"]
+        H["Harmonic Kernel · learning and adaptation"]
+        T["Terra Sensorium · environmental systems"]
+    end
+
+    S -.-> E
+    S -.-> H
+    S -.-> T
+```
+
+*Conceptual architecture, not a deployment map. Integration, testing, and validation remain development work; dashed arrows indicate intended product directions. The capability table below describes the broader stack.*
+
 ## The architecture
 
 These are complementary parts of the broader architecture. Their implementation maturity varies; integration and evaluation are active development needs.
