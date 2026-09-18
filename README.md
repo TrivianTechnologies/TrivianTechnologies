@@ -2,123 +2,348 @@
 
 **Relationship is the Technology.**
 
-We are developing an early architecture for accountable, persistent, multi-agent AI systems. Our first commercial investigation applies that architecture to AI-native financial compliance, beginning with lending.
+## AI is learning to act. The infrastructure around it has not caught up.
+
+The first generation of generative AI answered questions.
+
+The next generation is being asked to **do things**: move information between systems, make recommendations, execute workflows, coordinate with other agents, remember prior decisions, and operate with increasing independence over hours, weeks, and eventually years.
+
+That creates a different class of problem.
+
+An individual AI system can be highly capable while the **system around it is still unreliable**.
+
+A permission changes, but an agent continues operating from yesterday's authority.
+
+One agent makes a flawed assumption and five others inherit it, creating the appearance of consensus.
+
+A decision passes through several models and people until no one can reconstruct where it came from.
+
+New evidence arrives, but an old conclusion has already become embedded in memory and workflow.
+
+Several intelligent systems work on the same problem, yet their disagreement — often the most valuable signal — disappears as their outputs converge.
+
+And humans, instead of directing the system, become increasingly responsible for supervising decisions after they have already propagated.
+
+**This is the infrastructure gap Trivian is being built to address.**
 
 [Investor overview](https://github.com/TrivianTechnologies/.github/blob/main/docs/investors.md) · [TRIA SDK](https://github.com/TrivianInstitute/tria-sdk) · [Trivian Field](https://trivianfield.com)
 
-## What we are building
+---
 
-Trivian Technologies is translating a broad relational architecture into commercial products. Our first thesis is that financial institutions need a stronger connection between regulatory requirements, internal policies, operational controls, automated actions, and the evidence showing what happened.
+## We are building TRIA: an architecture for collective intelligence.
 
-Rosetta is the proposed runtime enforcement and evidence layer within that larger system. Customer discovery will determine which compliance workflow should become the first complete product.
+**TRIA — the Trivian Relational Intelligence Architecture — is designed for what happens when humans, AI agents, models, policies, and institutions must work together over time without losing authority, provenance, difference, or the ability to change course.**
 
-## First vertical: AI-native financial compliance
+Collective intelligence, in this context, does not mean a swarm collapsing toward consensus.
 
-Consider a lending institution responding to a regulatory change. Its teams must decide whether the change applies, identify affected policies and systems, implement and test the required controls, monitor their operation, and later show an auditor or examiner what occurred.
+It means an architecture in which different intelligences can remain different while contributing to something larger: sharing information, challenging one another, revising conclusions, preserving appropriate authority, and generating possibilities that no single participant could produce alone.
 
-Our long-term product thesis connects that chain:
+When instantiated, a TRIA system is designed to help a network of intelligence continuously answer questions such as:
 
-**Regulatory change → obligation → policy → control → runtime enforcement → evidence**
+- **Who is authorized to act right now?**
+- **What evidence is this conclusion based on?**
+- **What changed since the last decision?**
+- **Where is there genuine disagreement?**
+- **Which conclusions remain uncertain?**
+- **What would cause the system to reconsider?**
+- **Who or what contributed to this decision?**
+- **When should an action proceed, pause, escalate, or stop?**
 
-Lending is our first discovery wedge because it combines regulated decisions, automated workflows, multiple stakeholders, and strong evidence requirements. We are testing the wedge before committing to a broad compliance platform.
+The goal is not simply better answers.
 
-## Evidence and maturity
+The goal is a **persistent intelligence system**: one that can remember without becoming trapped by memory, coordinate without requiring centralization, revise itself when evidence changes, and become more capable without making human agency incidental.
 
-| Stage | What it includes | Current status |
+---
+
+## Why this matters now
+
+The AI market is moving from **models** toward **agents**.
+
+But adding more agents does not automatically create better intelligence.
+
+It can also multiply error.
+
+The same model assumptions can propagate through an entire workflow. Automated decisions can outlive the permissions that originally authorized them. Persistent memory can preserve mistakes as easily as insight. Agent-to-agent coordination can create rapid convergence without genuine independent reasoning.
+
+The more capable these systems become, the more consequential these failures become.
+
+We believe the next major infrastructure layer will therefore not be another model.
+
+It will be the architecture that allows **many forms of intelligence to act together dependably**.
+
+That is the category TRIA is being built to serve.
+
+---
+
+# What exists today
+
+We are not beginning with a concept deck.
+
+Parts of TRIA already exist at different levels of maturity, from public research infrastructure to private executable systems.
+
+## TRIA Core — the open foundation
+
+The open TRIA foundation is stewarded by **Trivian Institute**.
+
+It provides the relational substrate: architectures for governance, provenance, relational state, continuity, differentiated signal, sovereignty, accountable history, and inspectable interaction.
+
+The public TRIA SDK is available for inspection and development under MPL-2.0.
+
+**Status:** working open-source alpha and research foundation.
+
+[Explore the TRIA SDK](https://github.com/TrivianInstitute/tria-sdk)
+
+## Rosetta — the first commercial doorway
+
+**Rosetta** translates relational governance into runtime decisions.
+
+The current private implementation includes policy packs, tenant-specific policy assignment, semantic checks, guarded enforcement, escalation, runtime decisions, and audit records.
+
+Our first commercial vertical applies Rosetta to **AI-native financial compliance**, beginning with lending.
+
+A regulatory change can move through a chain such as:
+
+**Regulation → obligation → policy → control → AI action → evidence**
+
+That is a concrete and costly organizational problem with measurable consequences.
+
+Rosetta gives us a place to prove whether TRIA can make consequential AI workflows more governable, traceable, revisable, and economically useful.
+
+**Status:** working private MVP under active development. Internal tests exist; production validation and independent evaluation remain ahead.
+
+## Syzygy Core — differentiated intelligence in continuity
+
+**Syzygy Core** is the private cognitive architecture being developed around the TRIA foundation.
+
+It enables distinct cognitive processes to exchange signals, preserve lineage, inherit constraints, challenge one another, retain dissent, and generate higher-order syntheses without requiring one process to become the sovereign center.
+
+Its governing principle is:
+
+> **Coordination without centralization.**
+
+A conclusion should not merely exist. The system should be able to recover how that conclusion became possible, what contributed to it, what disagreed with it, and where it may still be wrong.
+
+**Status:** active proprietary R&D with working implementation and automated testing. Full-stack integration and external validation remain development work.
+
+## Aporia — intelligence that can remain uncertain
+
+Most AI systems are rewarded for producing an answer.
+
+**Aporia Protocol** introduces another capability: determining when the available evidence does **not yet justify closure**.
+
+It preserves competing interpretations, contradiction, confidence, and the conditions under which a conclusion should be revised.
+
+The purpose is not indecision.
+
+It is to prevent a compelling interpretation from quietly becoming accepted as fact simply because the system can generate one.
+
+**Status:** executable experimental protocol and reference implementation.
+
+## Evolution Catalyst — intelligence in long-term human relationship
+
+The **Evolution Catalyst Layer** explores another frontier: persistent AI participation in human development without allowing the intelligence to decide who the human should become.
+
+Its architecture centers explicit consent, human-authored objectives, revisable practice, attributable memory, conservative friction, and human-controlled authority.
+
+**Status:** deployable experimental alpha for controlled research and development. Human-development effects remain unvalidated.
+
+---
+
+# One architecture. Two tracks. Built in parallel.
+
+Trivian Technologies is not choosing between a near-term commercial product and the larger architecture.
+
+We are building both.
+
+## Track one: prove value through a commercial vertical
+
+Rosetta gives us a focused entry point into a high-accountability market where the problem already exists and the outcomes can be measured.
+
+Our first investigation is financial compliance, beginning with lending.
+
+We are seeking design partners who can help us test one recurring workflow end to end: from regulatory requirement and internal policy through runtime action, review, and evidence.
+
+The commercial question is straightforward:
+
+**Can TRIA reduce the cost, ambiguity, and risk of governing AI-driven work?**
+
+## Track two: build the full TRIA stack
+
+At the same time, we are integrating the deeper architecture required for persistent collective intelligence.
+
+TRIA provides the relational foundation.
+
+Rosetta governs consequential action.
+
+Aporia protects the boundary between evidence and interpretation.
+
+Syzygy Core coordinates differentiated cognition across time.
+
+Evolution Catalyst explores what persistent, consent-governed human–AI relationship can become.
+
+Additional layers extend the architecture toward learning, adaptive interaction, environmental systems, and other domains where multiple forms of intelligence must remain coordinated without collapsing into one center.
+
+The commercial vertical gives the architecture somewhere real to prove itself.
+
+The full stack ensures that the company is not limited to a single workflow or industry.
+
+---
+
+# The pathway
+
+## 1. Solve something expensive now.
+
+Enter through a high-accountability workflow where organizations already feel the cost of fragmented policy, changing authority, manual review, weak provenance, and poor auditability.
+
+Financial compliance is the first wedge.
+
+## 2. Prove the architecture in operation.
+
+Work with design partners. Measure failures. Test integration burden. Evaluate accuracy, review load, operating cost, security, and economic value.
+
+## 3. Productize what works.
+
+Move from controlled demonstrations and implementation work into recurring software, hosted services, integrations, and enterprise infrastructure.
+
+## 4. Expand from governed agents to collective intelligence.
+
+As organizations deploy increasing numbers of agents, the larger question becomes unavoidable:
+
+**How does an organization of humans and machine intelligences think and act together?**
+
+That is the longer-term market TRIA is being built to serve.
+
+---
+
+# What TRIA could make possible
+
+A mature TRIA deployment could allow an organization to operate a network of human and machine intelligence in which:
+
+- permissions can change without erasing history;
+- decisions remain traceable to their evidence and contributors;
+- disagreement remains visible rather than being averaged away;
+- uncertainty can remain open until additional evidence warrants action;
+- new evidence can reopen an earlier conclusion;
+- independent agents can coordinate without becoming one centralized decision-maker;
+- governance travels with action instead of being added after the fact;
+- human authority remains explicit;
+- and the collective can become more capable without requiring its participants to become more alike.
+
+This is the larger proposition behind the individual components.
+
+**TRIA is not an attempt to build one intelligence that knows everything.**
+
+It is an attempt to build the architecture through which many intelligences can become more capable together.
+
+---
+
+# Current maturity
+
+| Layer | What exists | Current status |
 |---|---|---|
-| **Working alpha** | The open-source TRIA SDK and initial Rosetta capabilities for executable policy, action-time decisions, escalation, and audit records. | Publicly inspectable alpha. Production readiness and full-stack validation are not claimed. |
-| **Internal demonstration** | One end-to-end lending compliance workflow using representative or sanitized materials. | The next prototype target. No completed integrated financial-compliance product is claimed. |
-| **Product direction** | Obligation mapping, policy-to-control mapping, monitoring, evidence review, and the broader persistent-intelligence architecture. | Proposed direction guiding discovery and development. |
-| **External validation** | Workflow fit, accuracy, integration effort, operating cost, review burden, security requirements, and willingness to pay. | Not yet established. Capital and design partnerships fund this work. |
+| **TRIA open foundation** | Public SDK and relational architecture stewarded by Trivian Institute. | Working open-source alpha. |
+| **Rosetta** | Runtime governance, policy packs, semantic checks, escalation, guarded enforcement, and audit records. | Working private MVP; active commercial development. |
+| **Syzygy Core** | Cognitive Bus, lineage preservation, bounded recursive processing, constraint inheritance, dissent preservation, and higher-order synthesis research. | Active proprietary R&D. |
+| **Aporia Protocol** | Machine-readable epistemic states, competing interpretations, contradiction preservation, confidence, and revisable closure. | Executable experimental protocol. |
+| **Evolution Catalyst Layer** | Consent-governed objectives, proposals, practice, revision, memory, and human-controlled authority. | Deployable experimental alpha; human outcomes unvalidated. |
+| **Integrated commercial deployment** | One end-to-end workflow connecting policy, governed action, review, and evidence. | Next major validation target. |
+| **External validation** | Production readiness, workflow fit, economic value, security, operating burden, and willingness to pay. | To be established through design partnerships and independent evaluation. |
 
-The investment opportunity is to fund the transition from an inspectable architecture to a tested commercial system while the category is still taking shape.
+The distinction matters.
 
-## Design partners
+**Implemented** does not mean **validated**.
+
+**Experimental** does not mean **imaginary**.
+
+Our next stage is about turning existing architecture into evidence.
+
+---
+
+# Why invest now
+
+**Proposed pre-seed target: $2 million.**
+
+The capital is not intended to fund the discovery of whether there is an architecture here.
+
+The architecture is already taking form.
+
+The raise funds the crossing from **architecture to evidence**.
+
+It allows us to:
+
+- integrate the existing components into a coherent deployed system;
+- build and test the first end-to-end commercial workflow;
+- recruit design partners and convert validated deployments into recurring customers;
+- conduct adversarial, security, and independent technical evaluation;
+- harden the software and infrastructure required for organizational use;
+- establish the corporate and intellectual-property foundation required to scale;
+- and determine, with evidence, where TRIA creates an advantage significant enough to become infrastructure.
+
+The near-term bet is concrete:
+
+**Can TRIA make consequential AI workflows more governable, traceable, revisable, and economically useful?**
+
+The larger bet is considerably bigger:
+
+**As intelligence becomes distributed across humans and machines, can TRIA become part of the infrastructure through which that intelligence works together?**
+
+[Read the investor overview](https://github.com/TrivianTechnologies/.github/blob/main/docs/investors.md)
+
+---
+
+# Open foundation, commercial development
+
+**Trivian Institute stewards the open-source TRIA foundation, research, and education. Trivian Technologies is a separate commercial venture developing proprietary architecture, products, deployments, integrations, and services around that foundation.**
+
+Open-source availability supports inspection, falsification, interoperability, and adoption.
+
+Private implementations remain governed by their own repository terms and provenance. Compatibility with TRIA does not automatically place every commercial component under the TRIA SDK's license.
+
+This structure allows the foundational research to remain inspectable while giving Trivian Technologies room to build differentiated commercial systems on top of it.
+
+---
+
+# Design partners
 
 We are seeking **3–5 design partners** among community and regional banks, credit unions, fintech lenders, and lending platforms.
 
-The likely executive sponsor is a Chief Compliance Officer, Chief Risk Officer, or lending leader. The working group may include lending compliance, operations, internal audit, engineering, and model-risk teams.
+A design partnership can help us reconstruct one recurring workflow, test a focused deployment, define security and approval requirements, and measure whether Trivian reduces manual coordination, review burden, or evidence-gathering work.
 
-A design partner would help us reconstruct one recurring workflow, test a lightweight prototype, define approval and security requirements, and measure whether Trivian reduces manual coordination or evidence-gathering work. The first candidate workflows are:
+The goal is not to ask partners to adopt an entire future architecture.
 
-- Continuous evidence and auditability for lending controls.
-- Moving a regulatory change through affected obligations, policies, controls, implementation, and verification.
+It is to solve one real problem well enough that the value becomes measurable.
 
-## The ecosystem at a glance
+---
 
-The Institute stewards TRIA as an open-source foundation available under MPL-2.0. Technologies develops commercial architecture and products around that publicly available foundation.
+# The horizon
 
-```mermaid
-flowchart TD
-    subgraph institute["Trivian Institute · open-source foundation"]
-        TRIA["TRIA · inspectable alpha"]
-    end
+Today, AI infrastructure is largely organized around the capabilities of individual models.
 
-    subgraph technologies["Trivian Technologies · commercial development"]
-        G["Governance and current permissions"]
-        C["Continuity and accountable history"]
-        A["Aporia · uncertainty and revision"]
-        S["Syzygy Core · persistent relational architecture"]
-        TRIA --> G
-        TRIA --> C
-        G --> S
-        C --> S
-        A --> S
-    end
+We believe the deeper infrastructure opportunity lies **between them**.
 
-    subgraph products["Intended product directions"]
-        E["Enterprise AI workflows"]
-        H["Harmonic Kernel · learning and adaptation"]
-        T["Terra Sensorium · environmental systems"]
-    end
+Between model and human.
 
-    S -.-> E
-    S -.-> H
-    S -.-> T
-```
+Between agent and agent.
 
-*Conceptual architecture, not a deployment map. Integration, testing, and validation remain development work; dashed arrows indicate intended product directions. The capability table below describes the broader stack.*
+Between present authority and historical memory.
 
-## The architecture
+Between evidence and interpretation.
 
-These are complementary parts of the broader architecture. Their implementation maturity varies; integration and evaluation are active development needs.
+Between individual intelligence and collective possibility.
 
-| Capability | Purpose |
-|---|---|
-| **Relational Constants** | Reciprocity, Embodiment, Emergence, and Non-Domination provide principles for designing and evaluating interactions. |
-| **Governance and execution boundaries** | Evaluate represented consent and permissions at the point of action. |
-| **Coheronmetry** | Represent relational state and examine drift, repair, and sovereignty through proposed measurements. |
-| **Orthogonal Signal** | Preserve distinct perspectives and meaningful dissent in multi-agent interaction. |
-| **Resonance Lattice** | Coordinate signals and interactions across distributed agents with explicit protocol boundaries. |
-| **Diachronic sovereignty** | Preserve accountable history while allowing permissions, commitments, and participation to change. |
-| **Aporia** | Give uncertainty and counterevidence a structured role in reopening conclusions. |
-| **Syzygy Core** | Compose governance, continuity, revision, and differentiated cognition into a persistent relational architecture. |
+The future is not one intelligence becoming infinitely capable.
 
-## From architecture to products
+It is many intelligences learning how to become more capable **together — without becoming the same intelligence.**
 
-Our first commercial investigation is AI-native financial compliance. A mature product could connect regulatory requirements with obligations, internal policies, operational controls, runtime decisions, and evidence. Rosetta would serve as the enforcement and evidence engine where automated or AI-driven activity occurs.
+**TRIA is being built for that future.**
 
-Lending is the first discovery wedge. Customer interviews and design partnerships will determine whether the initial MVP focuses on continuous evidence for lending controls or on moving regulatory changes through control implementation and verification.
-
-The broader product direction includes **Syzygy Core** for persistent enterprise and human-AI workflows, **Harmonic Kernel** for learning, coaching, and adaptive interaction, and **Terra Sensorium** for environmental and operational systems. These remain staged directions informed by evaluation and partner needs.
-
-## Technologies and the Institute
-
-**Trivian Institute stewards the open-source foundation, research, and education. Trivian Technologies is a separate commercial venture developing software, applications, and services around that publicly available foundation.**
-
-The Institute's [TRIA SDK](https://github.com/TrivianInstitute/tria-sdk) is an inspectable open-source alpha published under MPL-2.0. It provides a starting point for technical exploration and development.
-
-Each repository's license governs its contents. The SDK's open-source license does not imply that every component in the broader commercial architecture has the same license.
-
-## Current stage
-
-We are at the architecture-to-validation stage. The intellectual foundation and initial TRIA implementation exist. The next work is customer discovery, a focused internal demonstration, rigorous testing, design partnerships, and one end-to-end MVP.
-
-The [investor overview](https://github.com/TrivianTechnologies/.github/blob/main/docs/investors.md) describes the proposed raise, use of funds, and validation milestones.
+---
 
 ## Explore and connect
 
-- **Technical foundation:** [TRIA SDK](https://github.com/TrivianInstitute/tria-sdk) and [Trivian Institute repositories](https://github.com/TrivianInstitute)
+- **TRIA open-source foundation:** [TRIA SDK](https://github.com/TrivianInstitute/tria-sdk)
+- **Investor overview:** [Trivian Technologies investor brief](https://github.com/TrivianTechnologies/.github/blob/main/docs/investors.md)
+- **Research and public repositories:** [Trivian Institute](https://github.com/TrivianInstitute)
 - **Investment and development partnerships:** [invest@triviantech.com](mailto:invest@triviantech.com)
 - **Commercial inquiries:** [se@triviantech.com](mailto:se@triviantech.com)
 - **Websites:** [Trivian Technologies](https://triviantech.com) · [Trivian Field](https://trivianfield.com)
