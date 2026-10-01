@@ -93,7 +93,6 @@ The full stack ensures the company is not limited to a single workflow or indust
 
 ## Why invest now
 
-**Proposed pre-seed target: $2 million.**
 
 The architecture is already taking form. The raise funds the crossing from **architecture to evidence**:
 
