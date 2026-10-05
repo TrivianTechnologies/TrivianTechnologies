@@ -1,5 +1,7 @@
 # Trivian Technologies
 
+**Status: SUPPORTING COMPONENT — company and engineering-constellation overview.**
+
 **Relationship is the Technology.**
 
 ## AI is learning to act. The infrastructure around it has not caught up.
@@ -14,7 +16,7 @@ Permissions change while agents keep acting from yesterday's authority. One bad 
 
 TRIA is an architecture for collective intelligence: helping humans and machine systems work together over time while preserving authority, provenance, difference, uncertainty, and the ability to revise.
 
-[Investor overview](https://github.com/TrivianTechnologies/.github/blob/main/docs/investors.md) · [TRIA SDK](https://github.com/TrivianInstitute/tria-sdk) · [Trivian Field](https://trivianfield.com)
+[TRIA SDK](https://github.com/TrivianTechnologies/tria-sdk) · [Trivian Field](https://trivianfield.com)
 
 ---
 
@@ -47,7 +49,7 @@ A mature TRIA deployment is intended to make questions like these continuously a
 ## What exists today
 
 **TRIA Core — open foundation**  
-The public relational substrate for governance, provenance, continuity, differentiated signal, sovereignty, and accountable interaction. Stewarded by Trivian Institute and available as an open-source alpha.
+The public relational substrate for governance, provenance, continuity, differentiated signal, sovereignty, and accountable interaction. Its current engineering and commercial-development home is Trivian Technologies; its research lineage is Trivian Institute. Component maturity and licensing are recorded in each repository.
 
 **Rosetta — first commercial vertical**  
 A working private governance MVP with policy packs, semantic checks, guarded enforcement, escalation, runtime decisions, and audit records. Our first commercial investigation applies Rosetta to AI-native financial compliance, beginning with lending.
@@ -113,12 +115,18 @@ That is the company we are building.
 
 ## Explore and connect
 
-- **TRIA open-source foundation:** [TRIA SDK](https://github.com/TrivianInstitute/tria-sdk)
-- **Investor overview:** [Trivian Technologies investor brief](https://github.com/TrivianTechnologies/.github/blob/main/docs/investors.md)
-- **Research and public repositories:** [Trivian Institute](https://github.com/TrivianInstitute)
+- **TRIA open-source foundation:** [TRIA SDK](https://github.com/TrivianTechnologies/tria-sdk)
+- **Current engineering repositories:** [Trivian Technologies](https://github.com/TrivianTechnologies)
+- **Research lineage:** [Trivian Institute](https://trivianinstitute.org)
 - **Investment and development partnerships:** [invest@triviantech.com](mailto:invest@triviantech.com)
 - **Commercial inquiries:** [node@triviantech.com](mailto:node@triviantech.com)
 - **Websites:** [Trivian Technologies](https://triviantech.com) · [Trivian Field](https://trivianfield.com)
 - **Founder:** Sarasha Elion, Relational AI Architect, Educator, and Author · [ORCID](https://orcid.org/0009-0005-5819-7082)
 
 **Act. Adapt. Persist.**
+
+## Research lineage and current home
+
+Originator: Sarasha Elion. This work draws on architecture originated and cultivated through Trivian Institute. Trivian Technologies is the current engineering and commercial-development home. Repository stewardship does not establish ownership of all underlying IP; the intended founder IP assignment is pending, and contributor and third-party rights remain applicable.
+
+For technical and ecosystem inquiries: node@triviantech.com. No repository-level license file is currently specified; this description does not grant additional rights.
